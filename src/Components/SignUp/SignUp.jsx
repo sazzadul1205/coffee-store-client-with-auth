@@ -16,7 +16,7 @@ const SignUp = () => {
         createUser(email, password)
             .then((result) => {
                 console.log(result.user);
-                
+
                 // new user Created
                 const createdAt = result.user?.metadata?.creationTime;
                 const newUser = { email, createdAt: createdAt, password };

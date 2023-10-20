@@ -39,7 +39,6 @@ const CoffeeCard = ({ coffee, setCoffees, coffees }) => {
                             setCoffees(remaining);
                         }
                     })
-
             }
         })
     }
@@ -75,3 +74,7 @@ const CoffeeCard = ({ coffee, setCoffees, coffees }) => {
 };
 
 export default CoffeeCard;
+
+
+
+
